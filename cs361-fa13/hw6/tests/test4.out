@@ -1,0 +1,10 @@
+361db>> b 18
+breakpoint 0 set at line 18
+361db>> c
+breakpoint 0 hit
+361db>> p /d sum
+100
+361db>> p /d k
+10
+361db>> c
+hello world 5 10
